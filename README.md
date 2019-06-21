@@ -15,7 +15,7 @@ Suppose you named this component v-spinner
  ### Spinner with text and custom timing
  
  ```html
- v-spinner :weight="0.2" :size="5" :noText="false" :timing="'ease-in'">
+ <v-spinner :weight="0.2" :size="5" :noText="false" :timing="'ease-in'">
     <span>Waiting for response...</span>
  </v-spinner>
 ```
