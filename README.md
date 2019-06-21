@@ -21,17 +21,29 @@ Suppose you named this component v-spinner
 ```
 ## Properties
 
-weight: 
+### weight: 
+
   Thickness of the circle
+  
   default: 0.5
-size: 
+  
+### size: 
+
   Size of the circle
+  
   default value: 5 
-color:
+  
+### color:
+
   default value: Black
-timing: 
+  
+### timing: 
+
   Animation timing function
+  
   default value: cubic-bezier(0.47, 0.32, 0.71, 0.37)
-noText: 
+  
+### noText: 
+
   default value: true
 
