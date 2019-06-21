@@ -46,7 +46,7 @@ export default {
     },
     noText: {
       type: Boolean,
-      default: false
+      default: true
     },
     timing: {
       type: String
