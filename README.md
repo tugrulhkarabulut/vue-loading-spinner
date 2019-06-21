@@ -1,19 +1,26 @@
 # vue-loading-spinner
 Customizable loading animation for your Vue App
 
-# Basic Usage
+## Basic Usage
 
 Suppose you named this component v-spinner
 
- Basic spinner with no text
- v-spinner :weight="0.2" :size="5"></v-spinner>
+ ### Basic spinner with no text
+ 
+ 
+ ```html
+ <v-spinner :weight="0.2" :size="5"></v-spinner>
+```
 
- Spinner with text and custom timing
+ ### Spinner with text and custom timing
+ 
+ ```html
  v-spinner :weight="0.2" :size="5" :noText="false" :timing="'ease-in'">
     <span>Waiting for response...</span>
  </v-spinner>
+```
+## Properties
 
-# Properties
 weight: 
   Thickness of the circle
   default: 0.5
