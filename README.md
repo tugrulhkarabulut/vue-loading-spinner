@@ -5,10 +5,10 @@ Customizable loading animation for your Vue App
 
 Suppose you named this component v-spinner
 
-// Basic spinner with no text
+ Basic spinner with no text
 <v-spinner :weight="0.2" :size="5"></v-spinner>
 
-// Spinner with text and custom timing
+ Spinner with text and custom timing
 <v-spinner :weight="0.2" :size="5" :noText="false" :timing="'ease-in'">
     <span>Waiting for response...</span>
 </v-spinner>
